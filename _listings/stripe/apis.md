@@ -20,8 +20,8 @@ tags:
 - Change Log
 - Billing
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/disputes/master/_listings/stripe/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Disputes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/disputes/master/_listings/stripe/disputes-dispute-close-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/disputes/master/_listings/stripe/disputes-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
