@@ -33,7 +33,7 @@ apis:
   tags: Disputes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
