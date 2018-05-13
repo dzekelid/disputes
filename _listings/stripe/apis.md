@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-close-post.md
-- name: Stripe Get Disputes
-  description: Returns a list of your disputes.
+- name: Stripe Get Disputes Dispute
+  description: Retrieves the dispute with the given ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Disputes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
