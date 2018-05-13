@@ -34,17 +34,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-close-post.md
-- name: Stripe Get Disputes Dispute
-  description: Retrieves the dispute with the given ID.
+- name: Stripe Add Disputes Dispute
+  description: "When you get a dispute, contacting your customer is always the best
+    first step. If that doesn\u2019t work, you can submit evidence in order to help
+    us resolve the dispute in your favor. You can do this in your dashboard, but if
+    you prefer, you can use the API to submit evidence programmatically.Depending
+    on your dispute type, different evidence fields will give you a better chance
+    of winning your dispute. You may want to consult our guide to dispute types to
+    help you figure out which evidence fields to provide."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Disputes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
