@@ -1,9 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Disputes Dispute
+  description: "When you get a dispute, contacting your customer is always the best
+    first step. If that doesn\u2019t work, you can submit evidence in order to help
+    us resolve the dispute in your favor. You can do this in your dashboard, but if
+    you prefer, you can use the API to submit evidence programmatically.Depending
+    on your dispute type, different evidence fields will give you a better chance
+    of winning your dispute. You may want to consult our guide to dispute types to
+    help you figure out which evidence fields to provide."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
