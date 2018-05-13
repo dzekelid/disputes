@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Disputes Dispute Close
+  description: "Closing the dispute for a charge indicates that you do not have any
+    evidence to submit and are essentially \u2018dismissing\u2019 the dispute, acknowledging
+    it as lostThe status of the dispute will change from needs_response to lost. Closing
+    a dispute is irreversible."
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
