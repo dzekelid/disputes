@@ -34,21 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-close-post.md
-- name: Stripe Add Disputes Dispute
-  description: "When you get a dispute, contacting your customer is always the best
-    first step. If that doesn\u2019t work, you can submit evidence in order to help
-    us resolve the dispute in your favor. You can do this in your dashboard, but if
-    you prefer, you can use the API to submit evidence programmatically.Depending
-    on your dispute type, different evidence fields will give you a better chance
-    of winning your dispute. You may want to consult our guide to dispute types to
-    help you figure out which evidence fields to provide."
+- name: Stripe Add Disputes Dispute Close
+  description: "Closing the dispute for a charge indicates that you do not have any
+    evidence to submit and are essentially \u2018dismissing\u2019 the dispute, acknowledging
+    it as lostThe status of the dispute will change from needs_response to lost. Closing
+    a dispute is irreversible."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Disputes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/stripe/disputes-dispute-close-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
