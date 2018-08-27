@@ -1,24 +1,24 @@
 {
   "info": {
-    "name": "Stripe Get Disputes Dispute",
-    "_postman_id": "b94acdac-638a-4e73-8164-7d21173bb6c6",
-    "description": "Retrieves the dispute with the given ID.",
+    "name": "Stripe Get Charges Charge Dispute",
+    "_postman_id": "1762360b-5dd1-4990-b44e-3fe63dab8e30",
+    "description": "Get Charges, Charge, Dispute",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
     {
-      "name": "disputes",
+      "name": "charges",
       "item": [
         {
-          "id": "3a01bd33-46fe-43db-abb6-e92d6f991241",
-          "name": "getDisputesDispute",
+          "id": "bd082e37-a3bd-4f91-8dc1-b18bb0822e9b",
+          "name": "getChargesChargeDispute",
           "request": {
             "url": {
               "protocol": "http",
               "host": "api.stripe.com",
               "path": [
                 "v1",
-                "disputes/:dispute"
+                "charges/:charge/dispute"
               ],
               "query": [
                 {
@@ -29,7 +29,7 @@
               ],
               "variable": [
                 {
-                  "id": "dispute",
+                  "id": "charge",
                   "value": "{}",
                   "type": "string"
                 }
@@ -39,14 +39,14 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Retrieves the dispute with the given ID"
+            "description": "Get Charges, Charge, Dispute"
           },
           "response": [
             {
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "950d9481-0ec3-46d0-a3f1-3eec8991a580"
+              "id": "8b23f049-2937-4601-8c8d-1d9da3a02d3f"
             }
           ]
         }
