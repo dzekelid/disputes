@@ -1,9 +1,13 @@
+---
 swagger: "2.0"
 x-collection-name: Stripe
-x-complete: 1
+x-complete: 0
 info:
-  title: Stripe
-  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
+  title: Stripe Add Disputes Dispute Close
+  description: Closing the dispute for a charge indicates that you do not have any
+    evidence to submit and are essentially ???dismissing??? the dispute, acknowledging
+    it as lostThe status of the dispute will change from needs_response to lost. Closing
+    a dispute is irreversible.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -456,3 +460,17 @@ paths:
       - Charge
       - Dispute
       - Close
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

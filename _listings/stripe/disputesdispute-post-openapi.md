@@ -1,9 +1,16 @@
+---
 swagger: "2.0"
 x-collection-name: Stripe
-x-complete: 1
+x-complete: 0
 info:
-  title: Stripe
-  description: the-stripe-rest-api--please-see-httpsstripe-comdocsapi-for-more-details-
+  title: Stripe Add Disputes Dispute
+  description: When you get a dispute, contacting your customer is always the best
+    first step. If that doesn???t work, you can submit evidence in order to help us
+    resolve the dispute in your favor. You can do this in your dashboard, but if you
+    prefer, you can use the API to submit evidence programmatically.Depending on your
+    dispute type, different evidence fields will give you a better chance of winning
+    your dispute. You may want to consult our guide to dispute types to help you figure
+    out which evidence fields to provide.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -456,3 +463,17 @@ paths:
       - Charge
       - Dispute
       - Close
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

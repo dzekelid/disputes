@@ -6,11 +6,141 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Disputes
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Retrieve a list of disputes
+  x-api-slug: disputes-get
+  description: Retrieve a list of disputes
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputes-get-openapi.md
+- name: Rebilly - Create a dispute
+  x-api-slug: disputes-post
+  description: Create a dispute
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputes-post-openapi.md
+- name: Rebilly - Retrieve a dispute
+  x-api-slug: disputesid-get
+  description: Retrieve a dispute with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesid-get-openapi.md
+- name: Rebilly - Create or update a Dispute with predefined ID
+  x-api-slug: disputesid-put
+  description: Create or update a Dispute with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesid-put-openapi.md
+- name: Rebilly - Get matched rules for the dispute
+  x-api-slug: disputesidmatchedrules-get
+  description: Get matched rules for the dispute
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesidmatchedrules-get-openapi.md
+- name: Rebilly - Create a dispute
+  x-api-slug: disputes-post
+  description: Create a dispute
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputes-post-openapi.md
+- name: Rebilly - Retrieve a dispute
+  x-api-slug: disputesid-get
+  description: Retrieve a dispute with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesid-get-openapi.md
+- name: Rebilly - Create or update a Dispute with predefined ID
+  x-api-slug: disputesid-put
+  description: Create or update a Dispute with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesid-put-openapi.md
+- name: Rebilly - Get matched rules for the dispute
+  x-api-slug: disputesidmatchedrules-get
+  description: Get matched rules for the dispute
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesidmatchedrules-get-openapi.md
+- name: Rebilly - Get matched rules for the dispute
+  x-api-slug: disputesidmatchedrules-get
+  description: Get matched rules for the dispute
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesidmatchedrules-get-openapi.md
+- name: Rebilly - Create or update a Dispute with predefined ID
+  x-api-slug: disputesid-put
+  description: Create or update a Dispute with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesid-put-openapi.md
+- name: Rebilly - Retrieve a dispute
+  x-api-slug: disputesid-get
+  description: Retrieve a dispute with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputesid-get-openapi.md
+- name: Rebilly - Create a dispute
+  x-api-slug: disputes-post
+  description: Create a dispute
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disputes/master/_listings/rebilly/disputes-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com
